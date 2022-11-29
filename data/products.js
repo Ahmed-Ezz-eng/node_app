@@ -1,7 +1,6 @@
 
     const products = [
         {
-            id: 1,
             title: "Neapolitan Pizza",
             desc1: "Features tomatoes, garlic, oregano, and extra virgin olive oil.",
 
@@ -14,7 +13,7 @@
         },
 
         {
-            id: 2,
+
             title: "Chicago Pizza",
             desc1: "Chicago pizza are ground beef, sausage, pepperoni, onion, mushrooms, and green peppers",
 
@@ -27,7 +26,7 @@
         },
 
         {
-            id: 3,
+
             title: "New York Pizza",
             desc1: "New York-style pizza usually features tomato sauce and mozzarella cheese.",
 
@@ -40,7 +39,7 @@
         },
 
         {
-            id: 4,
+
             title: "Sicilian Pizza",
             desc1: "Sicilian pizzas are often topped with bits of tomato, onion, anchovies, and herbs.",
 
@@ -54,7 +53,7 @@
 
 
         {
-            id: 5,
+
             title: "Greek Pizza",
             desc1: "Greek pizza is usually heavier on the sauce than the cheese.",
 
@@ -66,7 +65,7 @@
         },
 
         {
-            id: 6,
+
             title: "California Pizza",
             desc1: " You can include anything from chicken and artichokes to goat cheese and egg",
 
@@ -79,7 +78,7 @@
         },
 
         {
-            id: 7,
+   
             title: "Detroit Pizza",
             desc1: " Detroit pizza traditionally features pepperoni, brick cheese ",
 
@@ -92,7 +91,7 @@
         },
 
         {
-            id: 8,
+
             title: "Veggie Pizza",
             desc1: "Made from peppers and mushrooms to eggplant and onions, this vegetable pizza is delicious and hearty.",
 
@@ -106,7 +105,7 @@
         },
 
         {
-            id: 9,
+
             title: "Louis Pizza",
             desc1: " Louis pizza features Provel cheese and a sweeter tomato sauce with a hefty dosage of oregano.",
 

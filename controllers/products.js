@@ -1,4 +1,4 @@
-import Product from "../models/productModel.js"
+import Product from '../models/productModel.js';
 import data from '../data/products.js';
 import mongoose from 'mongoose';
 
@@ -22,5 +22,15 @@ export const getSingleProduct = async (req, res) => {
     }
   } catch (error) {
     res.status(404).json({ message: 'This product not found' });
+  }
+};
+
+export const postProduct = async (req, res) => {
+  const { product } = req.body;
+  try {
+    const insertNewProduct = await Product.create(product);
+    res.status(201).json(insertNewProduct);
+  } catch (error) {
+    res.status(409).json({ message: error.message });
   }
 };

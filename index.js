@@ -11,7 +11,8 @@ const port = process.env.PORT || 4000
 const url = process.env.DB_URL
 
 app.use(cors());
-app.use(express.json());
+app.use(express.json({extended: true, limit: "30mb"}));
+app.use(express.urlencoded({extended: true, limit: "30mb"}));
 
 mongoose.connect(url)
     .then(() => {
